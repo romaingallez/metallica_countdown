@@ -31,8 +31,18 @@
     
     $: targetDateString = formatDate(targetDate);
   </script>
+
+  <style>
+    .background {
+      background-size: auto;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-image: url('/background.webp');
+      /* background-image: url('background.webp'); */
+    }
+  </style>
   
-  <main class="bg-background h-screen flex flex-col items-center justify-center">
+  <main class="background h-screen flex flex-col items-center justify-center">
 
     <div class="flex flex-col items-center">
       <div class="text-5xl font-bold mb-2">
